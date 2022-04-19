@@ -24,7 +24,7 @@ int			ft_atoi(const char *str)
 {
 	int								neg;
 	unsigned long long				nbr;
-
+ 
 	neg = 1;
 	nbr = 0;
 	while (ft_isspace(*str))
